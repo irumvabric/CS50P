@@ -1,4 +1,8 @@
-x = float(input("What is x? "))
-y = float(input("What is y? "))
 
-print(x + y)
+def hello(to):
+   print("hello,",to)
+
+name = input("What is your name ")
+
+
+hello(name)
