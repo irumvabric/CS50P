@@ -7,6 +7,7 @@
 #     print("meow")
 #     i += 1
 
-for i in [0,1,3,3,3,7]:
-    print("meow")
+# for _ in range(6):
+#     print("meow")
 
+print("meow \n" * 3)
