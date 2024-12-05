@@ -2,8 +2,7 @@ name = input("What is the Answer to the Great Question of Life, the Universe, an
 
 name = name.lower()
 
-match name:
-    case "42" |"forty-two":
-       print("Yes")
-    case _:
-        print ("No")
+if name.__contains__("42") or name == "forty-two" or name == "forty two":
+    print("Yes")
+else:
+    print("No")
